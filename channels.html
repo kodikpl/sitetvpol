@@ -121,30 +121,36 @@
 const channels = [
     // --- Kategoria: Ogólne (przeniesione na początek) ---
     {
-        id: 14,
+        id: 0,
         name: 'TVP1',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=TVP1',
         description: 'Główny kanał Telewizji Polskiej, oferujący szeroki wybór programów.',
-        videoUrl: 'https://sweet.tv/pl/free_tv/1502-tvp-1-hd'
+        videoUrl: 'https://wolk.live/player-hls.html?url=https://sto-prod-catalyst-3.lp-playback.studio/hls/video+39achr9ugyfoqukj/0_1/index.m3u8'
     },
     {
         id: 15,
         name: 'TVP2',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=TVP2',
         description: 'Drugi kanał Telewizji Polskiej z rozrywką, filmami i serialami.',
-        videoUrl: 'https://sweet.tv/pl/free_tv/1503-tvp-2-hd'
+        videoUrl: 'https://wolk.live/player-hls.html?url=https://sto-prod-catalyst-4.lp-playback.studio/hls/video+fac1n2tydjkftymw/0_1/index.m3u8'
     },
     {
         id: 16,
-        name: 'TVN (wymaga login)',
+        name: 'TVN',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=TVN',
-        description: 'Popularny kanał rozrywkowy, informacyjny i filmowy. Wymaga logowania.',
-        videoUrl: 'https://player.pl/live/tvn-hd,1908473'
+        description: 'Popularny kanał rozrywkowy, informacyjny i filmowy.',
+        videoUrl: 'https://wolk.live/player-hls.html?url=https://fra-prod-catalyst-1.lp-playback.studio/hls/video+9b034tjf4wbhk21x/0_1/index.m3u8'
     },
-
+    {
+        id: 17,
+        name: 'Polsat',
+        logo: 'https://placehold.co/150x150/ffffff/f97316?text=Polsat',
+        description: 'Popularny kanał rozrywkowy, informacyjny i filmowy.',
+        videoUrl: 'https://wolk.live/player-hls.html?url=https://fra-prod-catalyst-1.lp-playback.studio/hls/video+9b034tjf4wbhk21x/0_1/index.m3u8'
+    },
     // --- Kategoria: Muzyka ---
     {
-        id: 0,
+        id: 14,
         name: '4FUN TV',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=4FUN',
         description: 'Muzyczny kanał telewizyjny z największymi hitami i przebojami. 4FUN TV to rozrywka na najwyższym poziomie.',
@@ -185,13 +191,13 @@ const channels = [
         description: 'Kanał dla fanów tańca i rytmicznych hitów. HiDance to miejsce, gdzie parkiet nigdy nie cichnie!',
         videoUrl: 'https://wolk.live/player-hls.html?url=https%3A%2F%2Fs-pl-01.mediatool.tv%2Fplayout%2Fhdpl-abr%2Findex.m3u8'
     },
-    {
-        id: 8,
-        name: 'MUSIC BOX TV',
-        logo: 'https://placehold.co/150x150/ffffff/f97316?text=MUSIC+BOX',
-        description: 'Kanał muzyczny z najnowszymi teledyskami i hitami.',
-        videoUrl: 'https://embed.megogo.net/ev3/universal?id=20563666&lang=pl&scrolling='
-    },
+//    {
+//        id: 8,
+//        name: 'MUSIC BOX TV',
+//        logo: 'https://placehold.co/150x150/ffffff/f97316?text=MUSIC+BOX',
+//        description: 'Kanał muzyczny z najnowszymi teledyskami i hitami.',
+//        videoUrl: 'https://embed.megogo.net/ev3/universal?id=20563666&lang=pl&scrolling='
+//    }, 
     {
         id: 34,
         name: 'Radio Czwórka',
@@ -218,7 +224,7 @@ const channels = [
         name: 'MTV 00s',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=MTV+00s',
         description: 'Kanał muzyczny grający największe hity z lat 2000-2009.',
-        videoUrl: 'https://balkantelevizija.net/iptv-panel/repository/mtv_00s.php'
+        videoUrl: 'https://wolk.live/warn?url=//balkantelevizija.net/iptv-panel/repository/mtv_00s.php'
     },
     {
         id: 52,
@@ -265,7 +271,7 @@ const channels = [
         videoUrl: 'https://youtube.com/embed/dzntyCTgJMQ'
     },
     {
-        id: 17,
+        id: 117,
         name: 'wPolsce24',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=wPolsce24',
         description: 'Kanał informacyjny grupy Fratria.',
@@ -321,13 +327,6 @@ const channels = [
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=RAKUTEN+TV',
         description: 'Darmowe filmy, seriale i programy na żywo.',
         videoUrl: 'https://wolk.live/player-hls.html?url=https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/81e954d1-dd70-4212-b7f3-7157047b627b/4.m3u8'
-    },
-    {
-        id: 43,
-        name: 'Rakuten TV Top Movies',
-        logo: 'https://placehold.co/150x150/ffffff/f97316?text=Rakuten+Movies',
-        description: 'Najlepsze filmy dostępne na platformie Rakuten TV.',
-        videoUrl: 'https://wolk.live/player-hls.html?url=https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8'
     },
     {
         id: 19,
@@ -418,17 +417,17 @@ const channels = [
         name: 'TVP Sport',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=TVP+Sport',
         description: 'Kanał sportowy Telewizji Polskiej, transmitujący wydarzenia sportowe.',
-        videoUrl: 'https://streambetter.cyou/embed/special/PL/tvps.php'
+        videoUrl: 'https://wolk.live/warn?url=//streambetter.cyou/embed/special/PL/tvps.php'
     },
 
     // --- Kategoria: Dzieci ---
-    {
-        id: 7,
-        name: 'BFDI TV',
-        logo: 'https://placehold.co/150x150/ffffff/f97316?text=BFDI',
-        description: 'Kanał z popularną animacją Battle for Dream Island – śledź losy ulubionych bohaterów!',
-        videoUrl: 'https://www.youtube.com/embed/X4Ms_v8WRII?autoplay=1&loop=1&playlist=X4Ms_v8WRII'
-    },
+//    {
+//        id: 7,
+//        name: 'BFDI TV',
+//        logo: 'https://placehold.co/150x150/ffffff/f97316?text=BFDI',
+//        description: 'Kanał z popularną animacją Battle for Dream Island – śledź losy ulubionych bohaterów!',
+//        videoUrl: 'https://www.youtube.com/embed/X4Ms_v8WRII?autoplay=1&loop=1&playlist=X4Ms_v8WRII'
+//    },
     {
         id: 10,
         name: 'TVP ABC',
@@ -445,7 +444,7 @@ const channels = [
     },
     {
         id: 21,
-        name: 'Cat City Adventures',
+        name: 'Car City Adventures',
         logo: 'https://placehold.co/150x150/ffffff/f97316?text=Cat+City',
         description: 'Animowany serial dla dzieci o przygodach w Kocim Mieście.',
         videoUrl: 'https://wolk.live/player-hls.html?url=https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/b6397b24-18b0-49c2-80bf-0333ae568e37/5.m3u8'
