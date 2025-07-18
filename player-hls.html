@@ -125,14 +125,14 @@
 
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
           video.play().catch(() => {
-            showError("Nie udało się automatycznie odtworzyć wideo.");
+//            showError("Nie udało się automatycznie odtworzyć wideo.");
           });
         });
       } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
         video.src = streamUrl;
         video.addEventListener("loadedmetadata", () => {
           video.play().catch(() => {
-            showError("Nie udało się automatycznie odtworzyć wideo.");
+//            showError("Nie udało się automatycznie odtworzyć wideo.");
           });
         });
       } else {
