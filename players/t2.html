@@ -51,7 +51,7 @@
 
 <div class="iframe-container" id="iframeContainer">
   <button class="switch-btn" id="switchBtn">Przełącz stream</button>
-  <iframe id="mainIframe" src="https://wolk.live/player-hls.html?url=https://cdndai.pl/tvp2hd/index.m3u8"></iframe>
+  <iframe id="mainIframe" src="https://wolk.live/player-mpd?url=https://estreams.tv.nej.cz/dash/CH_TVP2_Portable.ism/playlist.mpd"></iframe>
 </div>
 
 <script>
@@ -60,7 +60,7 @@
   const container = document.getElementById("iframeContainer");
 
   const sites = [
-    "https://wolk.live/player-hls.html?url=https://cdndai.pl/tvp2hd/index.m3u8",
+    "https://wolk.live/player-mpd?url=https://estreams.tv.nej.cz/dash/CH_TVP2_Portable.ism/playlist.mpd",
     "https://wolk.live/warn?url=//thedaddy.to/embed/stream-561.php"
   ];
   let currentIndex = 0;
